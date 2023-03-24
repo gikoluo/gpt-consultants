@@ -85,14 +85,6 @@ export default {
             selectedConsultant: null,
             consultants: [
                 {
-                    image: "/consultants/sirry/0.png",
-                    name: "Sirry",
-                    position: "Richmond,BC",
-                    job: "Housing Agent",
-                    link: "#",
-                    buttonText: "Start chat"
-                },
-                {
                     image: "/consultants/frank/0.png",
                     name: "Frank",
                     position: "Richmond,BC",
@@ -107,7 +99,15 @@ export default {
                     job: "fitness coach",
                     link: "#",
                     buttonText: "Start chat"
-                }
+                },
+                {
+                    image: "/consultants/sirry/0.png",
+                    name: "Sirry",
+                    position: "Richmond,BC",
+                    job: "Housing Agent",
+                    link: "#",
+                    buttonText: "Start chat"
+                },
             ]
         };
     }
