@@ -64,7 +64,7 @@ export default {
       },
 
       get_url(consultant) {
-        const consultantUrl = new URL("http://127.0.0.1:7860/");
+        const consultantUrl = new URL("https://74575011b9772ec7a2.gradio.live/");
         consultantUrl.searchParams.append("name", consultant.name);
         consultantUrl.searchParams.append("position", consultant.position);
         consultantUrl.searchParams.append("job", consultant.job);
