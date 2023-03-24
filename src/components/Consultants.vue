@@ -22,7 +22,8 @@
                         aspect="1by1"
                         :src="get_url(selectedConsultant)"
                         allowfullscreen
-                        width="560" height="600"
+                        height="600"
+                        class="embed-responsive embed-responsive-16by9"
                     ></b-embed>
                 </b-card-foot>
             </b-card>
